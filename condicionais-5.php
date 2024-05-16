@@ -14,9 +14,10 @@
     <?php
     $numero = 50;
     if($numero <100){
-        ?>  echo"<p> Condição é verdadeira/true!</p>";
+        ?>
+        <p> Condição é verdadeira/true!</p>
     <?php
-    }
+    };
     ?>
     <hr>
     <h2>Composta (usa <code>if/else</code>)</h2>
@@ -36,16 +37,19 @@
     
 
     if( $qtdEmEstoque < $qtdCritica){
-        echo "<p class=\"alert alert-danger\"> É necessario repor</p>";
-
+        ?>
+        <p class="alert alert-danger"> É necessario repor</p>";
+        <?php
         if($qtdEmEstoque == 0){
-            echo "<p class=\"alert alert-warning\">AGORA</p>";
-
+            ?>
+            <p class="alert alert-warning">AGORA</p>";
+            <?php
         }
 
     }else{
-        
-        echo "<p class=\"alert alert-success\"> Estoque normal</p>";
+        ?>
+        <p class="alert alert-success"> Estoque normal</p>";
+        <?php
     }
     ?>
     <hr>
