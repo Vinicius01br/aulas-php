@@ -22,5 +22,15 @@
     echo "<p style=\"text-align:center\">Senac Penha</p>";
     ?>
     <!-- Delimitadores de abertura/fechamento PHP -->
+
+    <hr>
+    <h2>Tecnologias trabalhadas</h2>
+    <?php foreach ($tecnologias as $tecnologia){?>
+        <p> <?=$tecnologia?>
+
+        <?php
+    }
+
+    ?>
 </body>
 </html>

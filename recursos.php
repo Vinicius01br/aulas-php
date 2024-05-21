@@ -14,7 +14,7 @@
     <?php
     const EMPRESA = "ABC Tecnologia";
     $anoFiscal = 2024;
-    $tecnologia = ["Python", "IA Generativa","Machine Learning"];
+    $tecnologias = ["Python", "IA Generativa","Machine Learning"];
 
     ?>
     
